@@ -22,7 +22,7 @@ export function AppDownload() {
                             Request aid during emergencies, find relief centers near you, and track your assistance deliveries in real-time.
                         </p>
                         <Button className="rounded-full w-full" variant="outline" asChild>
-                            <Link href="#" className="gap-2">
+                            <Link href="https://github.com/rahul-p-v-2005/reliefflow-frontend/releases/download/v1.0.0/app-release.apk" className="gap-2">
                                 <ExternalLink className="h-4 w-4" />
                                 Download App
                             </Link>
@@ -44,7 +44,7 @@ export function AppDownload() {
                             Join our volunteer network, accept delivery tasks, help distribute relief supplies, and make a real difference.
                         </p>
                         <Button className="rounded-full w-full" variant="outline" asChild>
-                            <Link href="#" className="gap-2">
+                            <Link href="https://github.com/Alansherhan/volunteer_app/releases/download/v1.0.0/app-release.apk" className="gap-2">
                                 <ExternalLink className="h-4 w-4" />
                                 Download App
                             </Link>
