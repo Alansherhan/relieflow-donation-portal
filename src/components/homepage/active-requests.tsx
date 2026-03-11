@@ -48,7 +48,7 @@ export function ActiveRequests({ requests }: ActiveRequestsProps) {
                                 <div className="h-52 bg-muted flex items-center justify-center">
                                     {request.proofImages?.[0] ? (
                                         <img
-                                            src={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'}${request.proofImages[0]}`}
+                                            src={request.proofImages[0].startsWith('http') ? request.proofImages[0] : `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'}${request.proofImages[0]}`}
                                             alt={request.title}
                                             className="w-full h-full object-cover"
                                         />
